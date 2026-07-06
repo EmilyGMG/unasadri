@@ -1,0 +1,23 @@
+.time-slots {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 13px 20px;
+  margin-top: 34px;
+}
+
+.time-slots button {
+  height: 48px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.time-slots button.selected {
+  border-color: transparent;
+  background: linear-gradient(135deg, #ed6f98, #dd5b87);
+  color: #fff;
+  box-shadow: 0 10px 22px rgba(226, 96, 138, 0.28);
+}

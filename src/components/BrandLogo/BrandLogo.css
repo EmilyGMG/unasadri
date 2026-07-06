@@ -1,0 +1,54 @@
+.brand-logo {
+  position: relative;
+  text-align: center;
+  line-height: 0.9;
+  color: var(--primary);
+}
+
+.brand-logo span {
+  display: block;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.brand-logo strong {
+  display: block;
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: 58px;
+  font-weight: 400;
+  margin-top: -4px;
+}
+
+.brand-logo small {
+  display: block;
+  color: var(--text);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 10px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+.brand-logo::after {
+  /* content: "💅"; */
+  position: absolute;
+  right: -32px;
+  top: 3px;
+  font-size: 26px;
+  transform: rotate(20deg);
+}
+
+.brand-logo--small span {
+  font-size: 17px;
+}
+
+.brand-logo--small strong {
+  font-size: 47px;
+}
+
+.brand-logo--small small {
+  font-size: 9px;
+}

@@ -1,0 +1,103 @@
+.calendar {
+  margin-top: 26px;
+}
+
+.calendar__month {
+  display: grid;
+  grid-template-columns: 40px 1fr 40px;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.calendar__month strong {
+  height: 43px;
+  border-radius: 7px;
+  background: linear-gradient(135deg, #ffe5eb, #f8cbd6);
+  display: grid;
+  place-items: center;
+  font-size: 15px;
+  color: var(--text);
+}
+
+.calendar__month button {
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 34px;
+  font-weight: 300;
+}
+
+.calendar__month button:disabled {
+  opacity: 1;
+}
+
+.calendar__week,
+.calendar__grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.calendar__week {
+  margin-bottom: 16px;
+}
+
+.calendar__week span {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.calendar__grid {
+  row-gap: 18px;
+}
+
+.calendar__grid button,
+.calendar__grid span {
+  height: 32px;
+  display: grid;
+  place-items: center;
+}
+
+.calendar__grid button {
+  border: none;
+  background: transparent;
+  color: #34393e;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.calendar__grid button:disabled {
+  color: #34393e;
+  opacity: 1;
+}
+
+.calendar__grid button.available {
+  background: #ffe8ee;
+}
+
+.calendar__grid button.selected {
+  background: linear-gradient(135deg, #ed6f98, #dc5b87);
+  color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 9px 20px rgba(225, 94, 137, 0.32);
+}
+
+.calendar__legend {
+  margin: 54px 0 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: var(--text);
+  font-size: 15px;
+}
+
+.calendar__legend span {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #f4a7ba;
+}

@@ -1,0 +1,89 @@
+.services-page {
+  padding-top: 28px;
+  padding-bottom: 0;
+}
+
+.services-page__header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.services-page__menu {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 24px;
+}
+
+.services-page__about {
+  margin-top: 34px;
+}
+
+.services-page__about h2 {
+  margin: 0 0 18px;
+  font-size: 20px;
+}
+
+.services-page__about p {
+  margin: 0 auto;
+  max-width: 260px;
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.45;
+  text-align: center;
+  font-weight: 600;
+}
+
+.services-page__about span {
+  display: block;
+  margin-top: 18px;
+  text-align: center;
+  color: var(--primary-light);
+  font-size: 20px;
+}
+
+.services-page__whatsapp {
+  height: 78px;
+  margin-top: 30px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #e76f98, #dd5f89);
+  color: #fff;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: 1fr 56px;
+  align-items: center;
+  padding: 0 28px;
+}
+
+.services-page__whatsapp strong,
+.services-page__whatsapp small {
+  display: block;
+  text-align: center;
+}
+
+.services-page__whatsapp strong {
+  font-size: 13px;
+}
+
+.services-page__whatsapp small {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.services-page__whatsapp > span {
+  font-size: 42px;
+}
+
+.services-page__footer {
+  margin: 38px -28px 0;
+  padding: 18px 12px;
+  border-top: 1px solid #f7d6dd;
+  text-align: center;
+  color: var(--muted);
+  font-size: 11px;
+}

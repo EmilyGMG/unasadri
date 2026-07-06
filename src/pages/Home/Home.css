@@ -1,0 +1,97 @@
+.home {
+  padding-top: 28px;
+}
+
+.home__header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.home__menu {
+  position: absolute;
+  left: 0;
+  top: 5px;
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 26px;
+}
+
+.home__hero {
+  margin-top: 46px;
+  text-align: center;
+}
+
+.home__hero h1 {
+  font-weight: 300;
+  max-width: 300px;
+  margin: 0 auto;
+  color: var(--text);
+  font-size: 28px;
+  line-height: 1.22;
+}
+
+.home__heart {
+  margin: 16px 0 14px;
+  color: var(--primary);
+  font-size: 30px;
+}
+
+.home__hero p {
+  max-width: 250px;
+  margin: 0 auto 28px;
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.home__cta {
+  width: 210px;
+  height: 52px;
+  margin: 0 auto;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #e76f98, #dd5f89);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  box-shadow: 0 12px 26px rgba(226, 99, 139, 0.25);
+}
+
+.home__image {
+  width: 100%;
+  height: 258px;
+  margin-top: 38px;
+  border-radius: 130px 130px 8px 8px;
+  background:
+    url('/images/home-nails.png') center/cover no-repeat,
+    linear-gradient(135deg, #ffe3e8, #eda0b3);
+  box-shadow: inset 0 0 80px rgba(255, 255, 255, 0.38);
+}
+
+.home__benefits {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.home__benefits span {
+  color: var(--primary);
+  font-size: 30px;
+}
+
+.home__benefits p {
+  margin: 10px 0 0;
+  color: var(--text);
+  font-size: 12px;
+  line-height: 1.35;
+  font-weight: 700;
+}
